@@ -1,9 +1,10 @@
 // (1) -----------------------------------------------------------
        
-       Text(“I am an iOS developer!)
+        Text("I am an iOS Developer!").frame(width: 100, height: 50, alignment: .center)
         .padding()
             .background(Color.red)
         .padding()
+            .frame(width: 170, height: 120, alignment: .center)
             .background(Color.blue)
         .padding()
             .frame(width: 250, height: 200, alignment: .center)
